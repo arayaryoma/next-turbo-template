@@ -5,7 +5,9 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{js,cjs,mjs,jsx,ts,cts,mts,tsx,md,css,yaml,yml,html,json}\"",
+    "_prettier": "prettier \"**/*.{js,cjs,mjs,jsx,ts,cts,mts,tsx,md,css,yaml,yml,html,json}\"",
+    "format": "pnpm _prettier --write",
+    "format:check": "pnpm _prettier --check",
     "prepare": "husky install"
   },
   "devDependencies": {
