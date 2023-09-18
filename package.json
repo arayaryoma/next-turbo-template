@@ -8,7 +8,8 @@
     "_prettier": "prettier \"**/*.{js,cjs,mjs,jsx,ts,cts,mts,tsx,md,css,yaml,yml,html,json}\"",
     "format": "pnpm _prettier --write",
     "format:check": "pnpm _prettier --check",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "vitest"
   },
   "devDependencies": {
     "eslint": "^8.48.0",
@@ -17,6 +18,7 @@
     "prettier": "^3.0.3",
     "tsconfig": "workspace:*",
     "turbo": "latest",
+    "vite": "^4.4.9",
     "vitest": "^0.34.4"
   },
   "packageManager": "pnpm@8.6.10"
