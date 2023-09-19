@@ -6,7 +6,7 @@ export function Card({
   children,
   href,
 }: {
-  className?: string;
+  className?: string | undefined;
   title: string;
   children: React.ReactNode;
   href: string;
