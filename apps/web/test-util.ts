@@ -5,7 +5,7 @@ afterEach(() => {
   cleanup();
 });
 
-// eslint-disable-next-line @typescript-eslint/explicit-function-return-type -- should use type inference
+// eslint-disable-next-line typescript/explicit-function-return-type -- should use type inference
 function customRender(ui: React.ReactElement, options = {}) {
   return render(ui, {
     // wrap provider(s) here if needed
