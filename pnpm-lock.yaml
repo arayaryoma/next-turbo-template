@@ -31,7 +31,7 @@ importers:
         version: 4.4.9(@types/node@17.0.45)
       vitest:
         specifier: ^0.34.4
-        version: 0.34.4(happy-dom@12.0.1)
+        version: 0.34.4(happy-dom@12.1.2)
 
   apps/web:
     dependencies:
@@ -73,8 +73,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/eslint-config-custom
       happy-dom:
-        specifier: ^12.0.1
-        version: 12.0.1
+        specifier: ^12.1.2
+        version: 12.1.2
       tsconfig:
         specifier: workspace:*
         version: link:../../packages/tsconfig
@@ -83,7 +83,7 @@ importers:
         version: 4.9.5
       vitest:
         specifier: ^0.34.4
-        version: 0.34.4(happy-dom@12.0.1)
+        version: 0.34.4(happy-dom@12.1.2)
 
   packages/eslint-config-custom:
     devDependencies:
@@ -3008,8 +3008,8 @@ packages:
       uglify-js: 3.17.4
     dev: true
 
-  /happy-dom@12.0.1:
-    resolution: {integrity: sha512-kBH54b92GFP3pn9tdMBAtjNHoddE4om6vfFoTme2PCG6u/YYiYKas2yxJCd5MAINX+pYfalfpUKQHVQDTljLnw==}
+  /happy-dom@12.1.2:
+    resolution: {integrity: sha512-Ee0MdMXAMzfmZ4gLe33iKt8Rza5Fkyr+DxtHzCiBihTkI8JoX2XOfPdSsKDr0JAoMNYdMrFqIDYBoHq5DJqDXg==}
     dependencies:
       css.escape: 1.5.1
       entities: 4.5.0
@@ -5379,7 +5379,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@0.34.4(happy-dom@12.0.1):
+  /vitest@0.34.4(happy-dom@12.1.2):
     resolution: {integrity: sha512-SE/laOsB6995QlbSE6BtkpXDeVNLJc1u2LHRG/OpnN4RsRzM3GQm4nm3PQCK5OBtrsUqnhzLdnT7se3aeNGdlw==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -5423,7 +5423,7 @@ packages:
       cac: 6.7.14
       chai: 4.3.8
       debug: 4.3.4
-      happy-dom: 12.0.1
+      happy-dom: 12.1.2
       local-pkg: 0.4.3
       magic-string: 0.30.3
       pathe: 1.1.1
