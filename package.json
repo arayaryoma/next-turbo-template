@@ -9,7 +9,8 @@
     "format": "pnpm _prettier --write",
     "format:check": "pnpm _prettier --check",
     "prepare": "husky install",
-    "test": "vitest"
+    "test": "vitest",
+    "typecheck": "turbo run typecheck"
   },
   "devDependencies": {
     "eslint": "^8.49.0",
