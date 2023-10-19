@@ -28,7 +28,7 @@ importers:
         version: 1.10.15
       vite:
         specifier: ^4.4.11
-        version: 4.4.11(@types/node@17.0.45)
+        version: 4.4.11(@types/node@20.8.3)
       vitest:
         specifier: ^0.34.6
         version: 0.34.6
@@ -64,8 +64,8 @@ importers:
         specifier: ^18.0.22
         version: 18.2.5
       '@types/react-dom':
-        specifier: ^18.0.7
-        version: 18.2.3
+        specifier: ^18.2.14
+        version: 18.2.14
       '@vitejs/plugin-react':
         specifier: ^4.0.4
         version: 4.0.4(vite@4.4.11)
@@ -124,8 +124,8 @@ importers:
         specifier: ^18.2.0
         version: 18.2.5
       '@types/react-dom':
-        specifier: ^18.2.0
-        version: 18.2.3
+        specifier: ^18.2.14
+        version: 18.2.14
       eslint-config-custom:
         specifier: workspace:*
         version: link:../eslint-config-custom
@@ -812,7 +812,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.21.5
       '@testing-library/dom': 9.3.3
-      '@types/react-dom': 18.2.3
+      '@types/react-dom': 18.2.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -934,8 +934,8 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom@18.2.3:
-    resolution: {integrity: sha512-hxXEXWxFJXbY0LMj/T69mznqOZJXNtQMqVxIiirVAZnnpeYiD4zt+lPsgcr/cfWg2VLsxZ1y26vigG03prYB+Q==}
+  /@types/react-dom@18.2.14:
+    resolution: {integrity: sha512-V835xgdSVmyQmI1KLV2BEIUgqEuinxp9O4G6g3FqO/SqLac049E53aysv0oEFD2kHfejeKU+ZqL2bcFWj9gLAQ==}
     dependencies:
       '@types/react': 18.2.5
     dev: true
